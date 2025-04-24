@@ -3,6 +3,7 @@ compatibility_date = "2025-04-24"
 
 [build]
 command = "npm install && npm run build"
+upload_dir = "dist"  # 如果有静态文件输出目录
 
 [env]
 NODE_VERSION = "18.0.0"
