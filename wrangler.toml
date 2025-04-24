@@ -1,0 +1,8 @@
+name = "roim-picx"
+compatibility_date = "2025-04-24"
+
+[build]
+command = "npm install && npm run build"
+
+[env]
+NODE_VERSION = "18.0.0"
